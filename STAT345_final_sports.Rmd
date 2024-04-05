@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: "STAT 345 Final Project - Work(out) Smarter" 
 author: "Luke Schroeder, Aidan Matthai, Grant Matthai, : STAT 345" 
-=======
-title: "STAT 345 Final Project - Work(out) Smarter"
-author: "Luke Schroeder, Aidan Matthai, Grant Matthai: STAT 345 (test)"
->>>>>>> c7c9351a15b545dc47f8a56f110f76d0d17b1deb
 output: html_document
 ---
 
