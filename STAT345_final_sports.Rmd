@@ -1,6 +1,6 @@
 ---
 title: "STAT 345 Final Project - Work(out) Smarter" 
-author: "Luke Schroeder, Aidan Matthai, Grant Matthai, : STAT 345" 
+author: "Luke Schroeder, Aidan Matthai, Grant Matthai, :STAT 345" 
 output: html_document
 ---
 
