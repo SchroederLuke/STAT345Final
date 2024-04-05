@@ -11,9 +11,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Install packages
 ``` {r, message = FALSE}
+library(readxl)
 library(tidyverse)
 library(dplyr)
 library(purrr)
 library(shiny)
 library(ggplot2)
+```
+
+Read in Data from csv file
+``` {r}
+athlete_data <- read_excel("Compiled_Data.xlsx")
+str(athlete_data)
+```
+
+Tidy up athlete data
+``` {r}
+# fix dates to be same format
+athlete_data$Test_Date <- str_replace_all(athlete_data$Test_Date, "\\.", "\\-") 
+athlete_data$Test_Date <- str_replace_all(athlete_data$Test_Date, "\\_", "\\-")
+athlete_data$Test_Date
+
+# separate into year, month, and day
+athlete_data <- separate(athlete_data, Test_Date, into = c("Year", "Month", "Day"), sep = "-")
+
 ```
