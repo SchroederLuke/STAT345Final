@@ -1,0 +1,19 @@
+---
+title: "STAT345 Final Project Code- Work(out) Smarter"
+author: "Aidan Matthai, Grant Matthai, Luke Schroeder"
+date: "2024-04-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Install packages
+``` {r, message = FALSE}
+library(tidyverse)
+library(dplyr)
+library(purrr)
+library(shiny)
+library(ggplot2)
+```
